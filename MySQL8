@@ -4,3 +4,11 @@ Percona MySQL 8
  * Run the following script to enable the RocksDB storage engine in Percona Server:
 
         ps-admin --enable-rocksdb -u <mysql_admin_user> -p[mysql_admin_pass] [-S <socket>] [-h <host> -P <port>]
+Checking if RocksDB plugin is available for installation ...
+INFO: ha_rocksdb.so library for RocksDB found at /usr/lib64/mysql/plugin/ha_rocksdb.so.
+
+Checking RocksDB engine plugin status...
+INFO: RocksDB engine plugin is not installed.
+
+Installing RocksDB engine...
+INFO: Successfully installed RocksDB engine plugin.

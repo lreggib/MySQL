@@ -1,2 +1,6 @@
 Percona MySQL 8
 
+ * This release of Percona Server is distributed with RocksDB storage engine.
+ * Run the following script to enable the RocksDB storage engine in Percona Server:
+
+        ps-admin --enable-rocksdb -u <mysql_admin_user> -p[mysql_admin_pass] [-S <socket>] [-h <host> -P <port>]
